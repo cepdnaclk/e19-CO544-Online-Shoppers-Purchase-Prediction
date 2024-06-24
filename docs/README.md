@@ -20,9 +20,11 @@ This is a sample image, to show how to add images to your page. To learn more op
  -->
 
 ## Team
--  E/19/105, M. H. M. Fahman, [email](mailto:e19105@eng.pdn.ac.lk)
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
+-  E/19/105, M. H. M. Fahman Mr., [email](mailto:e19105@eng.pdn.ac.lk)
+-  E/19/106, Faseeh M.F.M. Mr., [email](mailto:e19106@eng.pdn.ac.lk)
+-  E/19/133, Harishanth A. Mr., [email](mailto:e19133@eng.pdn.ac.lk)
+-  E/19/247, S.M. Musthak Mr., [email](mailto:e19247@eng.pdn.ac.lk)
+-  E/19/371, Shantosh M. Mr., [email](mailto:e19371@eng.pdn.ac.lk)
 
 ## Table of Contents
 1. [Introduction](#introduction)
