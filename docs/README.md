@@ -3,13 +3,13 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and title
-repository-name: e19-CO544-Online-Shoppers-Purchasing-Intention
+repository-name: e19-CO544-Online-Shoppers-Purchase-Prediction
 title: Online Shoppers Purchasing Intention
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Project Title
+# Online Shoppers Purchase Prediction
 
 ---
 
