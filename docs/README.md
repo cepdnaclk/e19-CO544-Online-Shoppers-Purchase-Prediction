@@ -3,13 +3,13 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and title
-repository-name: e19-CO544-Online-Shoppers-Purchasing-Intention
+repository-name: e19-CO544-Online-Shoppers-Purchase-Prediction
 title: Online Shoppers Purchasing Intention
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Project Title
+# Online Shoppers Purchase Prediction
 
 ---
 
@@ -20,9 +20,11 @@ This is a sample image, to show how to add images to your page. To learn more op
  -->
 
 ## Team
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
+-  E/19/105, M. H. M. Fahman Mr., [email](mailto:e19105@eng.pdn.ac.lk)
+-  E/19/106, Faseeh M.F.M. Mr., [email](mailto:e19106@eng.pdn.ac.lk)
+-  E/19/133, Harishanth A. Mr., [email](mailto:e19133@eng.pdn.ac.lk)
+-  E/19/247, S.M. Musthak Mr., [email](mailto:e19247@eng.pdn.ac.lk)
+-  E/19/371, Shantosh M. Mr., [email](mailto:e19371@eng.pdn.ac.lk)
 
 ## Table of Contents
 1. [Introduction](#introduction)
