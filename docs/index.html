@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Online Shopping Purchase Predictor</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.jpeg" rel="icon">
+  <link href="assets/img/apple-touch-icon.jpeg" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FlexStart
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Updated: Jun 14 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">E-Com Shopping Purchase Predictor</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">Overview</a></li>
+          <li><a href="#services">Modeling Approach</a></li>
+          <li><a href="#team">Team</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h1 data-aos="fade-up">Understand Your Customers: Will They Buy?</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Predictive Insights at Your Fingertips</p>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>Overview</h3>
+              <p style="text-align: justify;">
+                At Predictive Shopper Insights, we bring the power of machine learning to your fingertips, helping you understand and anticipate online shopping behaviors with precision. Our platform leverages state-of-the-art algorithms to analyze user inputs and predict whether a customer will make a purchase. Whether you're optimizing marketing strategies, enhancing user experience, or improving conversion rates, our predictive models provide invaluable insights to drive your business forward. Enter your data and discover the likelihood of customer purchases with ease and accuracy.
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/about.jpeg" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- /About Section -->
+
+
+    <section id="values" class="values section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2><a href=https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset>DataSet</a></h2>
+    </div><!-- End Section Title -->
+    
+    
+      <div class="container">
+    
+        <div class="row gy-4">
+    
+          <!-- Dataset Overview Card -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card">
+              <h3>Dataset Overview</h3>
+              <p>This dataset consists of 12,330 sessions, collected over a year to avoid biases. 84.5% of sessions did not result in purchases.</p>
+            </div>
+          </div><!-- End Card Item -->
+    
+          <!-- Features Card -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card">
+              <h3>Features</h3>
+              <p>The dataset includes 17 features such as Administrative, ProductRelated, BounceRates, PageValues, and SpecialDay. These features help in predicting user purchasing intentions.</p>
+            </div>
+          </div><!-- End Card Item -->
+    
+          <!-- Target Variable Card -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <h3>Target Variable</h3>
+              <p>The target variable is Revenue, indicating whether the session ended with a purchase. This helps in training the machine learning models.</p>
+            </div>
+          </div><!-- End Card Item -->
+    
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400"></div>
+          <!-- Data Collection Card -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="card">
+              <h3>Data Collection</h3>
+              <p>The data was collected from different users to ensure variability and avoid bias towards specific campaigns, special days, or user profiles.</p>
+            </div>
+          </div><!-- End Card Item -->
+    
+          <!-- Data Usage Card -->
+          <!-- <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="card">
+              <h3>Data Usage</h3>
+              <p>The dataset can be used for classification and clustering tasks, making it versatile for various predictive analytics applications.</p>
+            </div>
+          </div>End Card Item -->
+    
+          <!-- Research Paper Card -->
+          <!-- <div class="col-lg-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="card">
+              <h3>Research Paper</h3>
+              <p>The dataset is associated with the paper "Real-time prediction of online shoppers’ purchasing intention using multilayer perceptron and LSTM recurrent neural networks" published in Neural Computing & Applications.</p>
+            </div>
+          </div>End Card Item -->
+    
+        </div><!-- End Row -->
+    
+      </div><!-- End Container -->
+    
+    </section><!-- End Values Section -->
+
+   <!-- Modeling Approach Section -->
+<section id="services" class="services section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Modeling Approach</h2>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <!-- Data Preprocessing Card -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item item-cyan position-relative">
+          <h3>Data Preprocessing</h3>
+          <p>Load the dataset and inspect for any anomalies. Handle missing values, encode categorical variables, and scale/normalize numerical features.</p>
+        </div>
+      </div><!-- End Data Preprocessing Item -->
+
+      <!-- Feature Engineering Card -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item item-orange position-relative">
+          <h3>Feature Engineering</h3>
+          <p>Select relevant features based on domain knowledge and EDA analysis.</p>
+        </div>
+      </div><!-- End Feature Engineering Item -->
+
+      <!-- Model Selection Card -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item item-teal position-relative">
+          <h3>Model Selection</h3>
+          <p>Train various machine learning models (Logistic Regression, Random Forest Classifier, SVM, Gradient Boosting, MLP).</p>
+        </div>
+      </div><!-- End Model Selection Item -->
+
+      <!-- Model Evaluation Card -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-item item-red position-relative">
+          <h3>Model Evaluation</h3>
+          <p>Evaluate model performance using metrics such as accuracy, precision, recall, F1 score, and AUC-ROC. Use cross-validation to ensure robustness.</p>
+        </div>
+      </div><!-- End Model Evaluation Item -->
+
+<!-- Final Model Selection Card -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="service-item item-pink position-relative">
+          <h3>Final Model Selection</h3>
+          <p>Based on evaluating metrics, the Random Forest Classifier was selected as the final model due to its superior performance and better output.</p>
+        </div>
+      </div><!-- End Final Model Selection Item -->
+
+      <!-- Deployment Card -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-item item-indigo position-relative">
+          <h3>Deployment</h3>
+          <p>Deploy our final model using a web framework (e.g., Flask) for real-time predictions. Integrate the model with an e-commerce web app to provide actionable insights.</p>
+        </div>
+      </div><!-- End Deployment Item -->
+
+      
+
+    </div><!-- End Row -->
+
+  </div><!-- End Container -->
+
+</section><!-- End Modeling Approach Section -->
+
+<div data-aos="fade-up" data-aos-delay="200" style="max-width: 1000px; margin: 0 auto;">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Results</h2>
+  </div><!-- End Section Title -->
+  <div class="content">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    
+      <style>
+       
+
+   .b-skills
+   {
+     border-top: 1px solid #f9f9f9;
+     padding-top: 46px;
+     text-align: center;
+   }
+   
+   .b-skills:last-child { margin-bottom: -30px; }
+   
+   .b-skills h2 { margin-bottom: 50px; font-weight: 900; text-transform: uppercase;}
+   
+   .skill-item
+   {
+     position: relative;
+     max-width: 250px;
+     width: 100%;
+     margin-bottom: 30px;
+     color: #555;
+   }
+   
+   .chart-container
+   {
+     position: relative;
+     width: 100%;
+     height: 0;
+     padding-top: 100%;
+     margin-bottom: 27px;
+   }
+   
+   .skill-item .chart,
+   .skill-item .chart canvas
+   {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100% !important;
+     height: 100% !important;
+   }
+   
+   .skill-item .chart:before
+   {
+     content: "";
+     width: 0;
+     height: 100%;
+   }
+   
+   .skill-item .chart:before,
+   .skill-item .percent
+   {
+     display: inline-block;
+     vertical-align: middle;
+   }
+   
+   .skill-item .percent
+   {
+     position: relative;
+     line-height: 1;
+     font-size: 40px;
+     font-weight: 900;
+     z-index: 2;
+   }
+   
+   .skill-item  .percent:after
+   {
+     content: attr(data-after);
+     font-size: 20px;
+   }
+          
+          p{
+              font-weight: 900;
+          }
+    
+       
+       </style>
+   </head>
+   
+   <body>
+      
+       <section id="s-team" class="section">
+   
+         <div class="b-skills">
+           <div class="container">
+   
+             <div class="row">
+               <div class="col-xs-12 col-sm-6 col-md-3">
+                 <div class="skill-item center-block">
+                   <div class="chart-container">
+                     <div class="chart " data-percent="92" data-bar-color="#23afe3">
+                       <span class="percent" data-after="%">92</span>
+                     </div>
+                   </div>
+   
+                   <p>Accuracy</p>
+                 </div>
+               </div>
+   
+               <div class="col-xs-12 col-sm-6 col-md-3">
+                 <div class="skill-item center-block">
+                   <div class="chart-container">
+                     <div class="chart " data-percent="92" data-bar-color="#a7d212">
+                       <span class="percent" data-after="%">92</span>
+                     </div>
+                   </div>
+   
+                   <p>Precision</p>
+                 </div>
+               </div>
+   
+               <div class="col-xs-12 col-sm-6 col-md-3">
+                 <div class="skill-item center-block">
+                   <div class="chart-container">
+                     <div class="chart " data-percent="92" data-bar-color="#ff4241">
+                       <span class="percent" data-after="%">92</span>
+                     </div>
+                   </div>
+   
+                   <p>Recall</p>
+                 </div>
+               </div>
+   
+               <div class="col-xs-12 col-sm-6 col-md-3">
+                 <div class="skill-item center-block">
+                   <div class="chart-container">
+                     <div class="chart " data-percent="92" data-bar-color="#edc214">
+                       <span class="percent" data-after="%">92</span>
+                     </div>
+                   </div>
+   
+                   <p>F1 score</p>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>  
+     
+    <script src="plugins/jquery-2.2.4.min.js"></script>
+    <script src="plugins/jquery.appear.min.js"></script>
+    <script src="plugins/jquery.easypiechart.min.js"></script> 
+    <script>
+       'use strict';
+   
+   var $window = $(window);
+   
+   function run()
+   {
+     var fName = arguments[0],
+       aArgs = Array.prototype.slice.call(arguments, 1);
+     try {
+       fName.apply(window, aArgs);
+     } catch(err) {
+        
+     }
+   };
+    
+   /* chart
+   ================================================== */
+   function _chart ()
+   {
+     $('.b-skills').appear(function() {
+       setTimeout(function() {
+         $('.chart').easyPieChart({
+           easing: 'easeOutElastic',
+           delay: 3000,
+           barColor: '#369670',
+           trackColor: '#fff',
+           scaleColor: false,
+           lineWidth: 21,
+           trackWidth: 21,
+           size: 250,
+           lineCap: 'round',
+           onStep: function(from, to, percent) {
+             this.el.children[0].innerHTML = Math.round(percent);
+           }
+         });
+       }, 150);
+     });
+   };
+    
+   
+   $(document).ready(function() {
+     
+     run(_chart);
+     
+       
+   });
+   
+   
+       
+       </script>
+  </div>
+</div>
+
+
+
+    
+ 
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+        <p>Our working team</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>S.M. Musthak Ahamed</h4>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Arudchelvan Harishanth</h4>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Muraleetharan Shanthosh</h4>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>M. H. M. Fahman</h4>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/team-5.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Faseeh M.F.M.</h4>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+  </main>
+
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
