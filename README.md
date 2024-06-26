@@ -1,3 +1,6 @@
+![image](https://github.com/faseehfsh/e19-CO544-Online-Shoppers-Purchasing-Intention/assets/115540000/a65d6c5d-99d4-4298-86ab-aa86bad30586)
+
+
 ## Predicting Online Shoppers' Purchasing Prediction Using Machine Learning
 https://shoppers-purchasing-prediction.df.r.appspot.com
 
