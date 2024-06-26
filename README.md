@@ -1,4 +1,8 @@
+![image](https://github.com/faseehfsh/e19-CO544-Online-Shoppers-Purchasing-Intention/assets/115540000/a65d6c5d-99d4-4298-86ab-aa86bad30586)
+
+
 ## Predicting Online Shoppers' Purchasing Prediction Using Machine Learning
+https://shoppers-purchasing-prediction.df.r.appspot.com
 
 ## Project Description
 This project leverages data analytics and machine learning techniques to predict the purchasing intentions of online shoppers. By analyzing factors such as browsing history, demographics, past purchase behavior, and interaction data, the project aims to forecast whether a user visiting an e-commerce website or app is likely to make a purchase.
